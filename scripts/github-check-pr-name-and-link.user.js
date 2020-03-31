@@ -16,33 +16,39 @@
 (function() {
     'use strict';
 
-    // ############## Customize your configuration here ############## //
-    // Ignored head branch name (example: 'develop')
-    let ignoredHeadName = '';
+     let ignoredHeadName = 'develop';
+
 
     // Refresh interval (ms) (example: 1000)
-    let refreshInterval = 200;
+    let refreshInterval = 1000;
+
 
     // Valid PR name regex (example: '[a-zA-Z]{2,5}-([0-9]{2,}) .+')
-    let prNamePattern = '';
+    let prNamePattern = '[a-zA-Z]{2,5}-([0-9]+) .+';
 
-    // Valid PR link regex (example: '[a-zA-Z]{2,5}')
-    let linkPattern = '';
 
-    // Valid PR URL regex (example: '^https://github.com/awesome-orga/[a-zA-Z0-9-]+/pull/[0-9]+$')
-    let urlPattern = '';
+    // Valid PR link regex (example: 'https://wizaplace.atlassian.net/browse/[a-zA-Z]{2,5}-([0-9]{2,})')
+    let linkPattern = 'https://wizaplace.atlassian.net/browse/[a-zA-Z]{2,5}-([0-9]+)';
 
-    // Valid branch name regex (example: '[a-zA-Z]{2,5}-([0-9]+)')
-    let branchNamePattern = '';
 
-    // Valid link text (example: 'Ticket link')
-    let validLinkText = '';
+    // Valid PR URL regex (example: '^https://github.com/wizaplace/[a-zA-Z0-9-]+/pull/[0-9]+$')
+    let urlPattern = '^https://github.com/wizaplace/[a-zA-Z0-9-]+/pull/[0-9]+$';
 
-    // Link Name (example: 'Ticket link')
-    let linkName = '';
 
-    // Blacklisted repositories (example: ['awesome-repo'])
-    let reposBlacklist = [];
+    // Valid branch name regex (example: '(feature|epic|wip-epic|fix|hotfix)-[a-zA-Z]{2,5}-([0-9]+)-[a-zA-Z0-9_-]{5,100}')
+    let branchNamePattern = '(feature|epic|wip-epic|fix|hotfix)-[a-zA-Z]{2,5}-([0-9]+)-[a-zA-Z0-9_-]{5,100}';
+
+
+    // Valid link text (example: 'Ticket JIRA')
+    let validLinkText = 'Ticket JIRA';
+
+
+    // Link Name (example: 'Jira link')
+    let linkName = 'Jira link';
+
+
+    // Blacklisted repositories (example: ['wizaplace-config'])
+    let reposBlacklist = ['wizaplace-config'];
 
     // Branch name error message suffix (example: 'It doesn't respects <a href="https://doc.google.com/example">nomenclature</a>')
     let branchNameErrorSuffix = 'It doesn\'t respects nomenclature';
