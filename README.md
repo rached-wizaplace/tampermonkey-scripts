@@ -28,7 +28,7 @@ Script Name	                               | Installation     | Created    | Upd
 ------------------------------------------ | ---------------- | -----------| ----------
 `github-calculate-pr-records.user.js`      | [Install][cpr]   | 2019.10.07 | 2019.10.14
 `github-check-labels-before-merge.user.js` | [Install][clbm]  | 2019.09.05 | 2019.10.10
-`github-check-pr-name-and-link.user.js`    | [Install][cpnal] | 2019.09.27 | 2019.10.10
+`github-check-pr-name-and-link.user.js`    | [Install][cpnal] | 2019.09.27 | 2020.03.31
 `github-prevent-squash-merge.user.js`      | [Install][psm]   | 2019.08.04 | 2019.10.10
 `github-show-hidden-conversations.user.js` | [Install][shc]   | 2019.10.08 | 2019.10.10
 
