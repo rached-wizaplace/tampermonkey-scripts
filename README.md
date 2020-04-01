@@ -32,11 +32,11 @@ Script Name	                               | Installation     | Created    | Upd
 `github-prevent-squash-merge.user.js`      | [Install][psm]   | 2019.08.04 | 2019.10.10
 `github-show-hidden-conversations.user.js` | [Install][shc]   | 2019.10.08 | 2019.10.10
 
-[cpr]: https://raw.githubusercontent.com/cyprille/tampermonkey-scripts/master/scripts/github-calculate-pr-records.user.js
-[clbm]: https://raw.githubusercontent.com/cyprille/tampermonkey-scripts/master/scripts/github-check-labels-before-merge.user.js
-[cpnal]: https://raw.githubusercontent.com/cyprille/tampermonkey-scripts/master/scripts/github-check-pr-name-and-link.user.js
-[psm]: https://raw.githubusercontent.com/cyprille/tampermonkey-scripts/master/scripts/github-prevent-squash-merge.user.js
-[shc]: https://raw.githubusercontent.com/cyprille/tampermonkey-scripts/master/scripts/github-show-hidden-conversations.user.js
+[cpr]: https://raw.githubusercontent.com/rached-wizaplace/tampermonkey-scripts/master/scripts/github-calculate-pr-records.user.js
+[clbm]: https://raw.githubusercontent.com/rached-wizaplace/tampermonkey-scripts/master/scripts/github-check-labels-before-merge.user.js
+[cpnal]: https://raw.githubusercontent.com/rached-wizaplace/tampermonkey-scripts/master/scripts/github-check-pr-name-and-link.user.js
+[psm]: https://raw.githubusercontent.com/rached-wizaplace/tampermonkey-scripts/master/scripts/github-prevent-squash-merge.user.js
+[shc]: https://raw.githubusercontent.com/rached-wizaplace/tampermonkey-scripts/master/scripts/github-show-hidden-conversations.user.js
 
 ## Issues
 Feel free to report any issues on this repository !
